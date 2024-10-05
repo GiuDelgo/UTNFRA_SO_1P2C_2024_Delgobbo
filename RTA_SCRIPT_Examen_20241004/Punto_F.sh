@@ -6,6 +6,7 @@ Mi IP Publica es: $(curl -s ifconfig.me)
 Mi usuario es: $(whoami)
 El Hash de mi Usuario es: $(sudo grep -i vagrant /etc/shadow | awk -F ':' '{print $2}')
 La URL de mi resporio es: $(git remote get-url origin)
+
 EOF
 
 echo "archivo Filtro_Avanzado.txt generado"
