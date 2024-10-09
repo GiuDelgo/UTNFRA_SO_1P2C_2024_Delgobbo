@@ -29,8 +29,8 @@ sudo chown -R p1c2_2024_A3:p1c2_2024_A3 /Examenes-UTN/alumno_3
 sudo chmod -R 700 /Examenes-UTN/alumno_3
 echo "permisos de /Examenes-UTN/alumno_3 cambiados"
 echo
-sudo chown p1c2_2024_P1:p1c2_2024_gProfesores /Examenes-UTN/profesores
-sudo chmod 775 /Examenes-UTN/profesores
+sudo chown -R p1c2_2024_P1:p1c2_2024_gProfesores /Examenes-UTN/profesores
+sudo chmod -R 775 /Examenes-UTN/profesores
 echo "permisos de /Examenes-UTN/profesores cambiados"
 echo
 
