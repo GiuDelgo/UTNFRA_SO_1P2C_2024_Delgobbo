@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mkdir -p /home/vagrant/Estructura_Asimetrica/{clientes/cartas_{1..100},correo/{cartas_{1..100},carteros_{1..10}}}
+mkdir -p /home/vagrant/Estructura_Asimetrica/{cliente/cartas_{1..100},correo/{cartas_{1..100},carteros_{1..10}}}
 
 echo
 
